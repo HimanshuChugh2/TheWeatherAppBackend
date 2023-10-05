@@ -1,0 +1,9 @@
+type ThirdPartyData {
+    field1: String
+    field2: Int
+    # Add other fields you need from the third-party API
+}
+
+type Query {
+    getThirdPartyData: ThirdPartyData
+}
